@@ -40,9 +40,16 @@ header {
   margin-bottom: 0px;
 }
 
-img.avatar {
+img.avatar { /*Image en rond*/
   margin-top: 20px;
+  overflow:hidden;
+  -webkit-border-radius:100px;
+  -moz-border-radius:100px;
+  border-radius: 300px;
+  width: 250px;
+  height: 250px;
 }
+
 
 .info ul {
   display: inline-block;
