@@ -13,7 +13,10 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(./images/font.jpg);
-  height: 100%;
+ 
+
+  width: 100%;
+  height: 100vh;
 }
 
 #wrapper {
@@ -75,4 +78,38 @@ h2 {
 
 .interests > div {
   padding: 0px 5px;
+}
+
+
+div {
+    display: block;
+}
+
+.espace{
+  min-height: 14px !important; 
+  margin-bottom: 48px !important;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+.pageone{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.particulesdiv{
+  background:no-repeat center url(./images/font.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+#particles-js{
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.7;
 }
