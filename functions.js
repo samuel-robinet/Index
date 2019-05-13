@@ -1,4 +1,4 @@
-function CalculAge() {  
+/*function CalculAge() {  
     var today = new Date();
     var dtn=document.getElementById('DateNais').value; // on lit la date de naissance
     var an=dtn.substr(6,4); // l'année (les quatre premiers caractères de la chaîne à partir de 6)
@@ -18,3 +18,4 @@ function CalculAge() {
 
 /*<label>Date de Naissance : </label><input type="text" id="DateNais" name="dateNais" Onblur="CalculAge()">
 <label>Age : </label><input type="text" name="age" id="Age">*/
+
