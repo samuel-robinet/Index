@@ -17,9 +17,7 @@
   margin:  auto;
 }
 
-#wrapper {
-  max-width: 970px;
-}
+
 .profile-title {
   display: inline-block;
   width: 150px;
@@ -138,7 +136,7 @@ body{
 }
 
 
-/* Logo qui bouge */
+/* bar progressive */ /* icon qui bougent */
 @keyframes progressLoad {
   0% {
     width:0%;
