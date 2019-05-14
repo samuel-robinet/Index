@@ -1,6 +1,6 @@
 function CalculAge() {  
     var today = new Date();
-    var dtn=document.getElementById('Age'); // on lit la date de naissance
+   // var dtn=document.getElementById('DateNais'); // on lit la date de naissance
     /*
     var an=dtn.substr(6,4); // l'année (les quatre premiers caractères de la chaîne à partir de 6)
     var mois=dtn.substr(3,2);// On selectionne le mois de la date de naissance
@@ -19,3 +19,7 @@ function CalculAge() {
 
 /*<label>Date de Naissance : </label><input type="text" id="DateNais" name="dateNais" Onblur="CalculAge()">
 <label>Age : </label><input type="text" name="age" id="Age">*/
+
+function loopscrool(){ 
+    $("html, body").animate({ scrollTop: 0 }, 600);
+};
