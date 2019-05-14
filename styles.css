@@ -136,7 +136,7 @@ body{
 }
 
 
-/* bar progressive */ /* icon qui bougent */
+/* bar progressive */ 
 @keyframes progressLoad {
   0% {
     width:0%;
@@ -148,6 +148,7 @@ body{
   -webkit-animation-play-state : paused;
 }
 
+/* icon qui bougent */
 .interests .card:hover .effect {
     -webkit-transform: rotateY(360deg);
     -moz-transform: rotateY(360deg);
@@ -195,7 +196,7 @@ h2 span{
 }
 
 
-/*animated scroll arrow animation*/
+/*animation scroll fleche */
 @-webkit-keyframes fade_move_down {
   0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
   50%  { opacity: 1;  }
