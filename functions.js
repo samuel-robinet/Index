@@ -1,3 +1,11 @@
+
+
+
+
+/* Fonctions TEST */
+
+
+
 function CalculAge() {  
     var today = new Date();
    // var dtn=document.getElementById('DateNais'); // on lit la date de naissance
@@ -6,7 +14,7 @@ function CalculAge() {
     var mois=dtn.substr(3,2);// On selectionne le mois de la date de naissance
     var day= dtn.substr(0,2); // On selectionne la jour de la date de naissance */
 
-    /*ar dateNaissance = new Date(2000 + "-" + 10 + "-" + 10);
+    /*var dateNaissance = new Date(2000 + "-" + 10 + "-" + 10);
 
     var age = today.getFullYear() - dateNaissance.getFullYear();
     var m = today.getMonth() - dateNaissance.getMonth();
@@ -19,6 +27,7 @@ function CalculAge() {
 
 /*<label>Date de Naissance : </label><input type="text" id="DateNais" name="dateNais" Onblur="CalculAge()">
 <label>Age : </label><input type="text" name="age" id="Age">*/
+
 
 function loopscrool(){ 
     $("html, body").animate({ scrollTop: 0 }, 600);
