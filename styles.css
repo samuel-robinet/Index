@@ -28,8 +28,8 @@ img.avatar {
   -webkit-border-radius:100px;
   -moz-border-radius:100px;
   border-radius: 300px;
-  width: 250px;
-  height: 250px;
+  width: 50%;
+  height: 50%;
 }
 
 
