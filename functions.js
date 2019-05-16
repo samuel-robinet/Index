@@ -22,7 +22,7 @@ function CalculAge() {
         age = age - 1;
     } */
   
-    document.getElementById('Age').value = 1; // que l'on place dans le input d'id Age
+    document.getElementById('Age').innerHTML = 1; // que l'on place dans le input d'id Age
 }
 
 /*<label>Date de Naissance : </label><input type="text" id="DateNais" name="dateNais" Onblur="CalculAge()">

@@ -110,7 +110,7 @@
                 </div>
               </div>
             </div>
-            <div id="indexun" class="scroll-down" ></div>
+            <div  href="Prog" class="scroll-down"  ></div>
           </div>
         </div>
       </div>
@@ -122,13 +122,13 @@
 
     <!-- parti Compétences / avec les barres de progression qui évoluent-->
 
-   <div class="container container-small">
+   <div  class="container container-small">
     <div class="row grey-text text-darken-3">
       <div class="col s12">
-        <h2 id="Compétences" class="black-text"><span>Compé</span>tences</h2>
+        <h2 id="Compétences" class="scrollspy" class="black-text" ><span>Compé</span>tences</h2>
       </div>
       <div class="col s12 m6 xl4">
-        <h3 class="grey-text text-darken-4">Programmation</h3>
+        <h3 id="Prog" class="grey-text text-darken-4">Programmation</h3>
         <div class="card">
           <div class="card-content">
             <div>C++</div>
@@ -226,7 +226,7 @@
   <div class="container container-small">
     <div class="row interests grey-text text-darken-3">
       <div class="col s12">
-        <h2 id="Intérêt" class="black-text"><span>Intêr</span>ests</h2>
+        <h2 id="Intérêt"  class="scrollspy" class="black-text"><span>Intêr</span>ests</h2>
       </div>
       <div class="col s6 m4 6">
         <div class="card tooltipped">
@@ -281,7 +281,7 @@
     <!-- Formulaire de contact -->
         <!-- manque data et php -->
 
-    <h2 id="Contact" class="black-text"><span>Cont</span>act</h2>
+    <h2 id="Contact"  class="scrollspy" class="black-text"><span>Cont</span>act</h2>
     <div class="card">
       <div class="card-content center row">
         <form class="col s12" method="POST">
@@ -315,7 +315,7 @@
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+              <input type="hidden">
             </div>
           </div>
             <button class="waves-effect waves-light btn" type="submit" name="SubmitButton">Envoyer</button>
@@ -337,6 +337,15 @@
           <p>Samuel Robinet © 2018. blablabla </p>
       </div>
     </footer>
+     <!-- Compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- js scrollspy -->
+    <script>
+    $(document).ready(function(){
+      $('.scrollspy').scrollSpy();
+    });
+   </script>
 
    </body>
 </html>
