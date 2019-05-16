@@ -88,6 +88,13 @@ div {
     z-index: 1;
        
   }
+
+
+.card{    z-index: 2;
+
+}
+
+
 .indexun{
    z-index: 1;
 }
