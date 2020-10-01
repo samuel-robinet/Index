@@ -3,7 +3,15 @@
 
 
 /* Fonctions TEST */
+function Monage(){
+        var d=new Date();
+        d.setDate(10); //faire sa date -1
+        d.setMonth(9); // month démarre à 0
+        d.setYear(2000);
+        //int age=
 
+        return Math.floor(Math.floor( (new Date).getTime()-d.getTime()) / (365.24*24*3600*1000)); //Arrondi inferieur
+}
 
 
 function CalculAge() {  

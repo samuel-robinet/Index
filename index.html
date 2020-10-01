@@ -22,6 +22,7 @@
 
     <!-- fonction pour le retour en haut / boutton scroll vers le haut / importation jquery -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script type="text/javascript" src="functions.js"></script>
     <script>
     jQuery(function(){
     $(function () {
@@ -100,7 +101,7 @@
 
                             <!--TEST pour avoir l'age qui change seul / id="Age" Onblur="CalculAge()" > ans</span></li> -->
                             
-                          <li><span class="profile-title">Age</span><span class="profile-desc">18 ans</span></li>
+                          <li><span class="profile-title">Age</span><span class="profile-desc"><script>document.write(Monage())</script> ans</span></li>
                           <li><span class="profile-title">Adresse</span><span class="profile-desc"></span></li>
                           <li><span class="profile-title">Courriel</span><span class="profile-desc">samuel.robinet@etu.umontpellier.fr</span></li>
                           <li><span class="profile-title">Télephone</span><span class="profile-desc">+33 6 80 87 89 85</span></li>
